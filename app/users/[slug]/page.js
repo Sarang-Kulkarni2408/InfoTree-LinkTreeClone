@@ -194,20 +194,20 @@ const Page = () => {
                     </div>
 
                     <div className="profileImage m-3">
-                        <input type="text" id="profileImage" name="profileImage" placeholder="Enter link of your profile image" required value={profileImage} onChange={(e) => setprofileImage(e.target.value)} disabled={!isEditMode}
+                        <input type="text" id="profileImage" name="profileImage" placeholder="Enter link of your profile image" required value={profileImage} onChange={(e) => setprofileImage(e.target.value)}
                             className="w-[50vw] px-4 py-4 border-3 border-white rounded-xl shadow-sm text-gray-800 bg-white font-bold cursor-pointer"
                         />
                     </div>
 
                     <div className="handleName m-3">
-                        <input type="text" id="handleName" name="handleName" placeholder="Enter your handle's Name" required value={handleName} onChange={(e) => sethandleName(e.target.value)} disabled={!isEditMode}
+                        <input type="text" id="handleName" name="handleName" placeholder="Enter your handle's Name" required value={handleName} onChange={(e) => sethandleName(e.target.value)} 
                             className="w-[50vw] px-4 py-4 border-3 border-white rounded-xl shadow-sm text-gray-800 bg-white font-bold cursor-pointer"
                         />
                     </div>
 
                     <div className="description m-3">
                         <input type="text" id="description" name="description" placeholder="Enter description for your handle" required value={description} onChange={(e) => setdescription(e.target.value)}
-                            disabled={!isEditMode} className="w-[50vw] px-4 py-4 border-3 border-white rounded-xl shadow-sm text-gray-800 bg-white font-bold cursor-pointer"
+                             className="w-[50vw] px-4 py-4 border-3 border-white rounded-xl shadow-sm text-gray-800 bg-white font-bold cursor-pointer"
                         />
                     </div>
 
@@ -237,10 +237,10 @@ const Page = () => {
                     </div>
 
                     <div className="addLink m-3 flex gap-2 p-0">
-                        <input type="text" id="originalURL" name="originalURL" placeholder="Enter link of your item" required value={originalURL} disabled={!isEditMode} onChange={(e) => setoriginalURL(e.target.value)}
+                        <input type="text" id="originalURL" name="originalURL" placeholder="Enter link of your item" required value={originalURL} onChange={(e) => setoriginalURL(e.target.value)}
                             className="w-[25vw] px-4 py-4 border-3 border-white rounded-xl shadow-sm text-gray-800 bg-white font-bold cursor-pointer m-0"
                         />
-                        <input type="text" id="keyword" name="keyword" placeholder="Enter keyword" required value={keyword} disabled={!isEditMode} onChange={(e) => setkeyword(e.target.value)}
+                        <input type="text" id="keyword" name="keyword" placeholder="Enter keyword" required value={keyword} onChange={(e) => setkeyword(e.target.value)}
                             className="w-[15vw] px-4 py-4 border-3 border-white rounded-xl shadow-sm text-gray-800 bg-white font-bold cursor-pointer"
                         />
                         <button onClick={handleAddItem} className='w-[9vw] cursor-pointer border-3 border-white rounded-xl shadow-sm text-gray-800 bg-white font-bold'>Add Item</button>
