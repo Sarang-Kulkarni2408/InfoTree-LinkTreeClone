@@ -27,14 +27,14 @@ const Page = () => {
         if (links.length > 0) {
             localStorage.setItem(`links-${params.slug}`, JSON.stringify(links));
         }
-    }, [links]);
+    }, [links, params.slug]);
 
     useEffect(() => {
         const savedLinks = localStorage.getItem(`links-${params.slug}`);
         if (savedLinks) {
             setLinks(JSON.parse(savedLinks));
         }
-    }, []);
+    }, [params.slug]);
 
     useEffect(() => {
         const fetchUser = async () => {
@@ -52,7 +52,7 @@ const Page = () => {
         };
 
         fetchUser();
-    }, []);
+    }, [params.slug]);
 
 
     const handleAddItem = () => {

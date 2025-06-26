@@ -3,6 +3,8 @@ import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 
+// import Image from 'next/image';
+
 export default function Home() {
   const [username, setUsername] = useState('');
   const [mode, setMode] = useState(""); // "create" or "visit"
