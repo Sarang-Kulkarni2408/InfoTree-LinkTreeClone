@@ -13,7 +13,7 @@ export default function Home() {
   useEffect(() => {
     const hasVisited = localStorage.getItem("hasSeenReadmeAlert");
     if (!hasVisited) {
-      alert("📘 Please go through the README file before using the website!\n\nJust click on the \"Home\" button to see it.");
+      alert("📘 Please go through the README file before using the website!\n\nJust click on the 'Home' button to see it.");
       localStorage.setItem("hasSeenReadmeAlert", "true");
     }
   }, []);
@@ -134,7 +134,7 @@ export default function Home() {
       </div>
 
       <div className="text-center text-white mt-6 text-2xl font-bold">
-        &quot;Arrange everything You Do, In One Place !&quot;
+        'Arrange everything You Do, In One Place !';
       </div>
     </>
   );
