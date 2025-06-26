@@ -4,7 +4,7 @@ import { useParams, useSearchParams } from 'next/navigation'
 
 import { useState, useEffect } from 'react'
 
-const page = () => {
+const Page = () => {
     const params = useParams()
     const [profileImage, setprofileImage] = useState('')
     const [handleName, sethandleName] = useState('')
@@ -296,4 +296,4 @@ const page = () => {
 
 }
 
-export default page
+export default Page
