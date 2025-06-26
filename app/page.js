@@ -134,7 +134,7 @@ export default function Home() {
       </div>
 
       <div className="text-center text-white mt-6 text-2xl font-bold">
-        'Arrange everything You Do, In One Place !';
+        Arrange everything You Do, In One Place !
       </div>
     </>
   );
