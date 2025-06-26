@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     const hasVisited = localStorage.getItem("hasSeenReadmeAlert");
     if (!hasVisited) {
-      alert("📘 Please go through the README file before using the website!\n\nJust click on the &quot;Home&quot; button to see it.");
+      alert("📘 Please go through the README file before using the website!\n\nJust click on the \"Home\" button to see it.");
       localStorage.setItem("hasSeenReadmeAlert", "true");
     }
   }, []);
