@@ -83,7 +83,7 @@ export default function Home() {
                 onClick={() => setMode("create")}
                 className="bg-green-400 hover:bg-green-500 text-black font-bold px-4 py-3 rounded-xl cursor-pointer"
               >
-                Create New InfoTree
+                Create/Edit InfoTree
               </button>
               <button
                 onClick={() => setMode("visit")}
