@@ -41,6 +41,7 @@ export default function Home() {
           const result = await resVerify.json();
 
           if (result.success) {
+            sessionStorage.setItem("edit-verified", "true");
             router.push(`/users/${slug}?edit=true`);
           } else {
             alert("Password is incorrect. You cannot edit this InfoTree.");
