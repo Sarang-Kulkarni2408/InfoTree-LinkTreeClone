@@ -28,7 +28,7 @@ const page = () => {
       <div className='text-xl font-bold mt-4'>## 👨‍💻 How It Works (User Guide) - </div>
 
       <ol className="list-decimal pl-6 mt-2 space-y-1">
-        <li>On Home Page, Choose <strong>"Create InfoTree"</strong> or <strong>"Visit InfoTree"</strong></li>
+        <li>On Home Page, Choose <strong>Create InfoTree</strong> or <strong>Visit InfoTree</strong></li>
         <li>Enter your desired <code>username</code></li>
       </ol>
 
@@ -40,7 +40,7 @@ const page = () => {
           <li>Enter your <strong>profile image</strong>, <strong>name</strong>, and <strong>description</strong></li>
           <li>Add multiple links (<code>originalURL + keyword</code>)</li>
           <li>Set and confirm a <strong>password</strong></li>
-          <li><span className="text-red-600 dark:text-red-400 font-semibold">NOTE:</span> You can change the password but can't reset it, so don’t forget it!</li>
+          <li><span className="text-red-600 dark:text-red-400 font-semibold">NOTE:</span> You can change the password but can not reset it, so do not forget it!</li>
           <li>Click <strong>“Generate InfoTree”</strong></li>
           <li>Copy and share your public link!</li>
         </ul>
@@ -49,7 +49,7 @@ const page = () => {
       ### 🔐 If Username Already Exists
 
       <ul className="list-disc pl-6 mt-2 space-y-1">
-        <li>You'll get two options:</li>
+        <li>You will get two options:</li>
         <ul className="list-[circle] pl-6 mt-1 space-y-1">
           <li>🔁 <strong>Choose another</strong></li>
           <li>🔐 <strong>It’s mine</strong> → enter password</li>
