@@ -15,7 +15,7 @@ const Navbar = () => {
         <img src="/infoTreeLogo.svg" alt="logo" className='pt-1' />
       </div>
       <div className="intro gap-3">
-        <a href="/readme" className="pr-5 font-bold cursor-pointer hover:text-xl">Home</a>
+        <a href="/note" className="pr-5 font-bold cursor-pointer hover:text-xl">Home</a>
         <span onClick={handleAbout} className='px-5 font-bold cursor-pointer hover:text-xl'>About</span>
         <span onClick={handleContact} className='pl-5 font-bold cursor-pointer hover:text-xl'>Contact Us</span>
       </div>
