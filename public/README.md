@@ -30,7 +30,7 @@
   - Enter your profile image, name, description
   - Add multiple links (`originalURL + keyword`)
   - Set and confirm a **password**
-  - **NOTE: You can't chnage the password, so don't forget it !**
+  - **NOTE: You can change the password but can't reset it, so don't forget it !**
   - Click “Generate InfoTree”
   - Copy and share your public link!
 
